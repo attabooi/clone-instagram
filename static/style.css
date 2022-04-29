@@ -106,13 +106,19 @@ body{
 .status-wrapper {
     width: 100%;
     height: 120px;
-    background: antiquewhite;
-    border: 1px solid antiquewhite;
+    background: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 2px;
     padding: 10px;
     padding-right: 0;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.status-wrapper::-webkit-scrollbar{
+    display: none
 }
 
 .status-card{
@@ -137,7 +143,69 @@ body{
 .profile-pic img{
     width: 100%;
     height: 100%;
-    object-fit cover;
+    object-fit: cover;
     border-radius: 50%;
-    border: 2px solid antiquewhite;
+    border: 2px solid #ffffff;
 }
+
+.username{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.post{
+    width: 100%;
+    height: 600px;
+    background: #ffffff;
+    border: 1px solid aliceblue;
+    margin-top: 40px;
+}
+
+.info{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.info .username{
+    width: auto;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.info .options{
+    height: 10px;
+    cursor: pointer;
+}
+
+.info .user{
+    display: flex;
+    align-items: center;
+}
+
+.info .profile-pic{
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    background: none;
+}
+
+.info .profile-pic img{
+    border: none;
+}
+
+.post-images{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
