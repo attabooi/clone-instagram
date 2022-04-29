@@ -251,6 +251,7 @@ body{
 
 .comment-wrapper .icon{
     height: 30px;
+    border-radius: 70%;
 }
 
 .comment-box{
@@ -275,7 +276,7 @@ body{
 }
 
 .reaction-wrapper{
-    width: 100%;
+    width: 105%;
     height: 50px;
     display: flex;
     margin-top: -20px;
