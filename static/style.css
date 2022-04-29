@@ -24,8 +24,8 @@ body{
     left: 0;
     width: 100%;
     height: 50px;
-    background: #0083ff;
-    border-bottom: 1px solid #003c69;
+    background: #45daff;
+    border-bottom: 1px solid #bebebe;
     display: flex;
     justify-content: center;
     padding: 5px 0;
@@ -271,7 +271,7 @@ body{
     outline: none;
     text-transform: capitalize;
     font-size: 16px;
-    color: rgb(0, 162, 255);
+    color: rgb(92, 92, 187);
     opacity: 0.5;
 }
 
@@ -349,7 +349,7 @@ body{
     margin: 20px 0;
 }
 
-@media (max-width: 1100px){
+@media (max-width: 600px){
     .right-col, .search-box{
         display: none;
     }
