@@ -24,13 +24,15 @@ body{
     left: 0;
     width: 100%;
     height: 50px;
-    background: #45daff;
+    background: #ffffff;
     border-bottom: 1px solid #bebebe;
     display: flex;
     justify-content: center;
     padding: 5px 0;
 }
-
+.dropdown {
+    display:none;
+}
 .nav-wrapper{
     width:70%;
     max-width: 1000px;
